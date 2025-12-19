@@ -49,7 +49,8 @@ Python, PowerBI
   - Population par région de France, sexe et grandes classes d'âge (1975-2025) (INSEE via [INED - Institut national des études démographiques](https://www.ined.fr/fichier/s_rubrique/159/estim.pop.nreg.sexe.gca.1975.2025.fr.xlsx)
 
 ### Méthodologie - Etapes de traitement
-* Analyse des variables et listes de valeurs, déficnition des formats et listes cibles
+* Analyse des variables et listes de valeurs, définition des formats et listes cibles
+1. Chargement initial 
 * Import des 6 fichiers zips csv (Python)
 * Gestion de l'encodage
 * Gestion des formats de variables (colonnes)
@@ -60,11 +61,14 @@ Python, PowerBI
 * Contrôle des volumétries et valeurs manquantes
   <figure>
 <p align="center" width="100%">
-  <img src="P2_volumes_avt_nettoyage.png" alt="Volumes et valeurs manquantes - état initial" style="width:60%">
+  <img src="assets/P2_volumes_avt_nettoyage.png" alt="Volumes et valeurs manquantes - état initial" style="width:60%">
   <figcaption><h6 align="center">Volumes et valeurs manquantes après concaténation - état initial</h6></figcaption>
   </p>
 </figure>
 
+2. Filtrage
+* Filtrage du dataframe sur ATC2='J01' de façon à ne conserver que le périmètre des antibiotiques
+* 
 ### Featuring
 * Liste PRIMO https://medqualville.antibioresistance.fr/resistances/synthese
 <figure>
