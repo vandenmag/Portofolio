@@ -12,7 +12,7 @@ médicaments. Résultat : certaines infections deviennent de plus en plus diffic
 Ainsi la surveillance et la compréhension de la prescription et et délivrance des antibiotiques en France est un des moyens de contribuer à des actions de prévention et d' appuyer les politiques de santé publique sur l'usage raisonné des antibiotiques.
 <figure>
 <p align="center" width="100%">
-  <img src="assets/stratégie_nationale.png" alt="Visuel bon usage des antibiotiques" style="width:50%">
+  <img src="assets/P2_stratégie_nationale.png" alt="Visuel bon usage des antibiotiques" style="width:50%">
   <figcaption><h6 align="center">Antibiotiques et antibiorésistance</h6></figcaption>
   </p>
 </figure>
@@ -40,7 +40,7 @@ Python, PowerBI
 
 <figure>
 <p align="center" width="100%">
-  <img src="P1_data_model.png" alt="aperçu données Open Medic" style="width:60%">
+  <img src="P2_Data_OpenMedic.png" alt="Aperçu données Open Medic" style="width:60%">
   <figcaption><h6 align="center">Aperçu des données - Base principale Open Medic</h6></figcaption>
   </p>
 </figure>
