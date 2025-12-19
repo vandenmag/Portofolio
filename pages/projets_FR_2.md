@@ -40,7 +40,7 @@ Python, PowerBI
 
 <figure>
 <p align="center" width="100%">
-  <img src="P2_Data_OpenMedic.png" alt="Aperçu données Open Medic" style="width:60%">
+  <img src="assets/P2_Data_OpenMedic.png" alt="Aperçu données Open Medic" style="width:60%">
   <figcaption><h6 align="center">Aperçu des données - Base principale Open Medic</h6></figcaption>
   </p>
 </figure>
