@@ -55,14 +55,14 @@ Python, PowerBI
 * Analyse des variables et listes de valeurs, définition des formats et listes cibles
   
 1. Chargement initial 
-* Import des 6 fichiers zips csv (Python)
-* Gestion de l'encodage
-* Gestion des formats de variables (colonnes)
-* Ajout et valorisation d'une colonne année
-* Normalisation des noms de colonnes
-* Concaténation des 6 fichiers
-* Contrôle des doublons
-* Contrôle des volumétries et valeurs manquantes
+  * Import des 6 fichiers zips csv (Python)
+  * Gestion de l'encodage
+  * Gestion des formats de variables (colonnes)
+  * Ajout et valorisation d'une colonne année
+  * Normalisation des noms de colonnes
+  * Concaténation des 6 fichiers
+  * Contrôle des doublons
+  * Contrôle des volumétries et valeurs manquantes
   <figure>
 <p align="center" width="100%">
   <img src="assets/P2_volumes_avt_nettoyage.png" alt="Volumes et valeurs manquantes - état initial" style="width:60%">
@@ -70,9 +70,10 @@ Python, PowerBI
   </p>
 </figure>
 
+
 2. Filtrage
-* Filtrage du dataframe sur ATC2='J01' de façon à ne conserver que le périmètre des antibiotiques
-* Contrôle des volumes
+  * Filtrage du dataframe sur ATC2='J01' de façon à ne conserver que le périmètre des antibiotiques
+  * Contrôle des volumes
 <figure> 
   <p align="center" width="100%">
   <img src="assets/P2_volumeJ01.png" alt="Volumes J01" style="width:60%">
@@ -80,14 +81,16 @@ Python, PowerBI
   </p>
 </figure>
 
+
 3. Adaptation des variables
-* Suppression des variables non pertinentes
-* Renommage plus explicite des variables
-* Ajout de variables libellés en vue de la gestion des visualisations d'exploration
-* Transcodage de valeurs catégorielles
+  * Suppression des variables non pertinentes
+  * Renommage plus explicite des variables
+  * Ajout de variables libellés en vue de la gestion des visualisations d'exploration
+  * Transcodage de valeurs catégorielles
+
 
 4. Gestion des valeurs négatives
-* Identifiées via describe et documentées sur la discussion Open Medic (il s'agit de régularisations de remboursements)
+  * Identifiées via describe et documentées sur la discussion Open Medic (il s'agit de régularisations de remboursements)
 <figure> 
   <p align="center" width="100%">
   <img src="assets/P2_Valeurs_neg.png" alt="Volumes J01" style="width:60%">
@@ -95,7 +98,20 @@ Python, PowerBI
   </p>
 </figure>
 
+
 6. Gestion des valeurs inconnues
+  * Le jeu de données ne comporte pas de NA mais des valeurs renseignées à "Inconnu".
+  * Les valeurs inconnues (catégorielles) des différents critères sont introduites pour préserver le secret statistique lors qu'un groupe concerne moins de 10 bénéficiaires.
+  * Le remplacement par le mode par exemple créerait beaucoup d'approximation, notamment lorsqu'une ligne/un groupe présente plusieurs critères inconnus.
+  * Contrôle de la proportion de lignes concernées
+
+<figure> 
+  <p align="center" width="100%">
+  <img src="assets/P2_inconnues.png" alt="Volumes J01" style="width:60%">
+  <figcaption><h6 align="center">Valeurs inconnues</h6></figcaption>
+  </p>
+</figure>
+7. 
 ### Featuring
 * Liste PRIMO https://medqualville.antibioresistance.fr/resistances/synthese
 <figure>
@@ -104,7 +120,10 @@ Python, PowerBI
   <figcaption><h6 align="center">Version de travail du modèle de données</h6></figcaption>
   </p>
 </figure>
+
+
 7. Vérification finale des doublons et valeurs manquantes
+
 
 
 ## :bar_chart: Focus Besoin de reporting 
