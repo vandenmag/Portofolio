@@ -87,7 +87,19 @@ Python, PowerBI
   * Renommage plus explicite des variables
   * Ajout de variables libellés en vue de la gestion des visualisations d'exploration
   * Transcodage de valeurs catégorielles
-
+    - Exemple cas particulier du top générique, dont la codifiaction a changé au cours de la période étudiée
+<figure> 
+  <p align="center" width="100%">
+  <img src="assets/P2_topgen_1.png" alt="Codage Top Générique issu de la documentation du jeu de données" style="width:60%">
+  <figcaption><h6 align="center">Codage Top Générique issu de la documentation du jeu de données</h6></figcaption>
+  </p>
+</figure>
+<figure> 
+  <p align="center" width="100%">
+  <img src="assets/P2_transco_top-gen.png" alt="Codage Top Générique normalisé" style="width:60%">
+  <figcaption><h6 align="center">Codage Top Générique normalisé</h6></figcaption>
+  </p>
+</figure>
 
 4. Gestion des valeurs négatives
   * Identifiées via describe et documentées sur la discussion Open Medic (il s'agit de régularisations de remboursements)
@@ -107,7 +119,7 @@ Python, PowerBI
 
 <figure> 
   <p align="center" width="50%">
-  <img src="assets/P2_inconnues.png" alt="Valeurs inconnues" style="width:60%">
+  <img src="assets/P2_inconnues.png" alt="Valeurs inconnues" style="width:30%">
   <figcaption><h6 align="center">Pourcentages des valeurs inconnues</h6></figcaption>
   </p>
 </figure>
