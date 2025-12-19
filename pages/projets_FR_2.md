@@ -38,13 +38,16 @@ Python, PowerBI
   - Utilisation de la base principale pour les années 2019 à 2024 : 6 fichiers open_medic_AAAA.csv
   - Antibiotiques identifiés par le code ATC2 : J01-ANTIBACTERIENS A USAGE SYSTEMIQUE.
 
+<figure>
+<p align="center" width="100%">
+  <img src="P1_data_model.png" alt="aperçu données Open Medic" style="width:60%">
+  <figcaption><h6 align="center">Aperçu des données - Base principale Open Medic</h6></figcaption>
+  </p>
+</figure>
+
 * Fichier INSEE (Institut national de la statistique et des études économiques)
   - Population par région de France, sexe et grandes classes d'âge (1975-2025) (INSEE via [INED - Institut national des études démographiques](https://www.ined.fr/fichier/s_rubrique/159/estim.pop.nreg.sexe.gca.1975.2025.fr.xlsx)
-<!--
-Source - https://stackoverflow.com/a
-Posted by bim, modified by community. See post 'Timeline' for change history
-Retrieved 2025-12-19, License - CC BY-SA 4.0
--->
+
 ### Méthodologie - Etapes de traitement
 
 
