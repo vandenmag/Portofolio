@@ -50,6 +50,7 @@ Python, PowerBI
 
 ### Méthodologie - Etapes de traitement
 * Analyse des variables et listes de valeurs, définition des formats et listes cibles
+  
 1. Chargement initial 
 * Import des 6 fichiers zips csv (Python)
 * Gestion de l'encodage
@@ -68,7 +69,14 @@ Python, PowerBI
 
 2. Filtrage
 * Filtrage du dataframe sur ATC2='J01' de façon à ne conserver que le périmètre des antibiotiques
-* 
+* Contrôle des volumes
+ 
+  <p align="center" width="100%">
+  <img src="assets/P2_volumeJ01.png" alt="Volumes J01" style="width:60%">
+  <figcaption><h6 align="center">Volumes après filtrage</h6></figcaption>
+  </p>
+</figure>
+
 ### Featuring
 * Liste PRIMO https://medqualville.antibioresistance.fr/resistances/synthese
 <figure>
