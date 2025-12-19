@@ -38,7 +38,7 @@ Retrieved 2025-12-19, License - CC BY-SA 4.0
 
 <figure>
 <p align="center" width="100%">
-  <img src="P1_data_model.png" alt="Version de travail Modèle de données P1" style="width:60%">
+  <img src="assets/P1_data_model.png" alt="Version de travail Modèle de données P1" style="width:60%">
   <figcaption><h6 align="center">Version de travail du modèle de données</h6></figcaption>
   </p>
 </figure>
@@ -66,13 +66,13 @@ mais aussi des actions utlisateurs au sein des workflows fontionnels.
 Statistiques par action utilisateur une fois le document validé (e.g. : Paper version request, PDF export, etc.), par utilisateur et groupe d'utilisateurs
 <figure>
 <p align="center" width="100%">
-  <img src="P1_action_stats.png " alt="Exemple web Actions stats" style="width:60%">
+  <img src="assets/P1_action_stats.png " alt="Exemple web Actions stats" style="width:60%">
   <figcaption><h6 align="center">Exemple reporting web 'Action stats'</h6></figcaption>
   </p>
 </figure>
 <figure>
 <p align="center" width="100%">
-  <img src="P1_action_stats_parameters.png" alt="Exemple web Actions stats-date picker" style="width:40%">
+  <img src="assets/P1_action_stats_parameters.png" alt="Exemple web Actions stats-date picker" style="width:40%">
   <figcaption><h6 align="center">Exemple date picker web 'Action stats'</h6></figcaption>
   </p>
 </figure>
@@ -81,7 +81,7 @@ Statistiques par action utilisateur une fois le document validé (e.g. : Paper v
 Statistiques par action utilisateur en phase de contrôle du document (Qualify and Send, or Forward back to mailroom, and reason for forwarding back), by user and user group
 Détail raisons de refus/renvoi du document après numérisation
 <p align="center" width="100%">
-  <img src="P1_back2mr.png" alt="Exemple Nombre de renvois par motif de refus" style="width:60%">
+  <img src="assets/P1_back2mr.png" alt="Exemple Nombre de renvois par motif de refus" style="width:60%">
   <figcaption><h6 align="center">Exemple Nombre de renvois par motif de refus</h6></figcaption>
   </p>
 </figure>
@@ -110,6 +110,7 @@ License pic usage monitoring- par année, mois, jour, utilisateurs uniques
 * Ajustement des volumes de licenses et prévisions d'accroissement au fil du déploiement
 * Identification, analyse et résolution d'une sauvergarde tierce de DB qui interrompait certains jobs
 * Réactivité et reprise en cas d'incident réseau quand les envois auto d'emails ou les dépôts de pdf par la solution étaient affectés
+
 
 
 
