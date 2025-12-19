@@ -30,21 +30,26 @@ Selon les axes prescripteurs, bénéficiaire, sous-groupes pharmacologiques :
 ### Stack
 Python, PowerBI
 
-## Data Processing
+## Traitement des données
 
-### Données utilisées
-* Jeu de données Open Medic mis à disposition librement par l’État sur la plate-forme [data.gouv.fr](https://www.data.gouv.fr/datasets/open-medic-base-complete-sur-les-depenses-de-medicaments-interregimes)
+### Sources de données utilisées
+* Base Open Medic mis à disposition librement par l’État sur la plate-forme [data.gouv.fr](https://www.data.gouv.fr/datasets/open-medic-base-complete-sur-les-depenses-de-medicaments-interregimes)
   - Mise à disposition annuelle
-  - Utilisation de la base principale pour les années 2019 à 2024 : open_medic_AAAA.csv
+  - Utilisation de la base principale pour les années 2019 à 2024 : 6 fichiers open_medic_AAAA.csv
   - Antibiotiques identifiés par le code ATC2 : J01-ANTIBACTERIENS A USAGE SYSTEMIQUE.
+
+* Fichier INSEE (Institut national de la statistique et des études économiques)
+  - Population par région de France, sexe et grandes classes d'âge (1975-2025) (INSEE via [INED - Institut national des études démographiques](https://www.ined.fr/fichier/s_rubrique/159/estim.pop.nreg.sexe.gca.1975.2025.fr.xlsx)
 <!--
 Source - https://stackoverflow.com/a
 Posted by bim, modified by community. See post 'Timeline' for change history
 Retrieved 2025-12-19, License - CC BY-SA 4.0
 -->
-## Etapes de traitement
+### Méthodologie - Etapes de traitement
 
 
+### Featuring
+* Liste PRIMO https://medqualville.antibioresistance.fr/resistances/synthese
 <figure>
 <p align="center" width="100%">
   <img src="P1_data_model.png" alt="Version de travail Modèle de données P1" style="width:60%">
