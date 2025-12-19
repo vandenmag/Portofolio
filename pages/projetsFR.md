@@ -2,7 +2,7 @@
 La data et le reporting dans 2 exemples de mes projets opérations
 
 
-# 1 - Dématérialisation de courrier entrant  - Monitoring des opérations
+# Example Projet : Dématérialisation de courrier entrant  - Monitoring des opérations
 
 > [!NOTE]
 > Visuels indicatifs de développement, à titre d'illustration
@@ -12,7 +12,7 @@ Projet de mise en place d'une solution de dématéralisation de courrier entrant
 
 ### Le process en ultra-bref
 
-scan > import > indexation > traitement business > export pour archivage
+:incoming_envelope: > scan :page_facing_up: > import :open_file_folder:> indexation :label: :desktop_computer: > traitement business :gear: :briefcase: > export pour archivage :file_cabinet:
 
 ### Stack
 Windows server-IIS/SQL Server/MS Azure/O365
@@ -79,11 +79,12 @@ Nombre et statut des emails en envoi automatique avec PDF attaché (seulement po
 * License usage monitoring
 License pic usage monitoring- par année, mois, jour, utilisateurs uniques
 
-### Exemples d'améliorations identifiées grâce à ces rapports, et de résolutions d'incidents auxquelles ils ont contribué
+### :dart: Exemples d'améliorations identifiées grâce à ces rapports, et de résolutions d'incidents auxquelles ils ont contribué
 * Ajustement de la résolution des scanners pour équilibrer volumes de fichiers et confort d'exploitation du document numérisé par l'utilisateur
 * Ajustement des volumes de licenses et prévisions d'accroissement au fil du déploiement
 * Identification, analyse et résolution d'une sauvergarde tierce de DB qui interrompait certains jobs
 * Réactivité et reprise en cas d'incident réseau quand les envois auto d'emails ou les dépôts de pdf par la solution étaient affectés
+
 
 
 
