@@ -18,10 +18,10 @@ Windows server-IIS/SQL Server/MS Azure/O365
 Hyland OnBase - C# et SQL
 
 ## Cherchez la data
-La data est partout et capitale dans ce type de projet qui semble centré sur le document mais repose surtout sur une base de données structurée:
-*Données métier (décrivant pour un objet courrier le client, la mission, le type de document, d'affranchissement, les destinataires, le courrier en lui-même, etc.)
-*Données techniques (identifiants de batch, de machines, horadatage, statuts de workflows, de jobs, données de paramétrage, etc.)
-*Données issues de référentiels (ici utilisateurs, clients, missions)
+La data est partout et capitale dans ce type de projet qui semble centré sur le document mais repose surtout sur une base de données structurée, des workflows bien calibrés, des classes bien organisées :
+* Données métier (décrivant pour un objet courrier le client, la mission, le type de document, d'affranchissement, les destinataires, le courrier en lui-même, etc.)
+* Données techniques (identifiants de batch, de machines, horadatage, statuts de workflows, de jobs, données de paramétrage, etc.)
+* Données issues de référentiels (ici utilisateurs, clients, missions)
 qu'il faut:
 * identifier
 * formater
@@ -83,6 +83,7 @@ License pic usage monitoring- par année, mois, jour, utilisateurs uniques
 * Ajustement des volumes de licenses et prévisions d'accroissement au fil du déploiement
 * Identification, analyse et résolution d'une sauvergarde tierce de DB qui interrompait certains jobs
 * Réactivité et reprise en cas d'incident réseau quand les envois auto d'emails ou les dépôts de pdf par la solution étaient affectés
+
 
 
 
