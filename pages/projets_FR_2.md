@@ -148,7 +148,7 @@ Python, PowerBI
 <figure> 
   <p align="center" width="100%">
   <img src="assets/P2_INSEE_avant.png" alt="Aperçu des données INSEE brutes" style="width:90%">
-  <figcaption><h6 align="center">Aperçu des données INSEE brutes</h6></figcaption>
+  <figcaption><h6 align="center">Aperçu des données INSEE brutes (exemple année 2024)</h6></figcaption>
   </p>
 </figure>
 
