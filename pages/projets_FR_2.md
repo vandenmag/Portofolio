@@ -51,8 +51,12 @@ Python, PowerBI
 * Fichier INSEE (Institut national de la statistique et des études économiques)
   - Population par région de France, sexe et grandes classes d'âge (1975-2025) (INSEE via [INED - Institut national des études démographiques](https://www.ined.fr/fichier/s_rubrique/159/estim.pop.nreg.sexe.gca.1975.2025.fr.xlsx)
 
-### Méthodologie - Etapes de traitement
-* Analyse des variables et listes de valeurs, définition des formats et listes cibles
+* Liste PRIMO 
+  - Liste des substances antibiotiques surveillées en France dans le cadre de la [mission PRIMO](https://medqualville.antibioresistance.fr/resistances/synthese) sur l'antibiorésistance
+
+
+### Méthodologie - Etapes de traitement des données Open Medic
+0. Analyse des variables et listes de valeurs, définition des formats et listes cibles
   
 1. Chargement initial 
   * Import des 6 fichiers zips csv (Python)
@@ -90,13 +94,13 @@ Python, PowerBI
     - Exemple cas particulier du top générique, dont la codifiaction a changé au cours de la période étudiée
 <figure> 
   <p align="center" width="100%">
-  <img src="assets/P2_topgen_1.png" alt="Codage Top Générique issu de la documentation du jeu de données" style="width:60%">
+  <img src="assets/P2_topgen_1.png" alt="Codage Top Générique issu de la documentation du jeu de données" style="width:40%">
   <figcaption><h6 align="center">Codage Top Générique issu de la documentation du jeu de données</h6></figcaption>
   </p>
 </figure>
 <figure> 
   <p align="center" width="100%">
-  <img src="assets/P2_transco_top-gen.png" alt="Codage Top Générique normalisé" style="width:60%">
+  <img src="assets/P2_transco_top-gen.png" alt="Codage Top Générique normalisé" style="width:40%">
   <figcaption><h6 align="center">Codage Top Générique normalisé</h6></figcaption>
   </p>
 </figure>
@@ -119,19 +123,23 @@ Python, PowerBI
 
 <figure> 
   <p align="center" width="50%">
-  <img src="assets/P2_inconnues.png" alt="Valeurs inconnues" style="width:30%">
+  <img src="assets/P2_inconnues.png" alt="Valeurs inconnues" style="width:20%">
   <figcaption><h6 align="center">Pourcentages des valeurs inconnues</h6></figcaption>
   </p>
 </figure>
 
 
-6. 
-### Featuring
-* Liste PRIMO https://medqualville.antibioresistance.fr/resistances/synthese
+6. Vérification finale des doublons et valeurs manquantes
+   
+7. Résultats du traitement
+<figure> 
+  <p align="center" width="100%">
+  <img src="assets/P2_infos_post_traitement.png" alt="Informations du jeu de données après traitements" style="width:50%">
+  <figcaption><h6 align="center">Informations du jeu de données après traitements</h6></figcaption>
+  </p>
+</figure>   
 
 
-
-8. Vérification finale des doublons et valeurs manquantes
 
 
 
