@@ -1,6 +1,6 @@
 
 
-# Example Projet Data : Consommation des antibiotiques en France 2019-2024
+# Analyse ad-hoc : Consommation des antibiotiques en France 2019-2024
 
 > [!NOTE]
 > Projet de groupe retravaillé
@@ -30,10 +30,12 @@ En étudiant les données de remboursement (montants remboursés, nombre de boî
 * Que représentent les subsantances surveillées dans le cadre de l'antibiorésistance par rapport à l'ensemble des antibiotiques délivrés en pharmacies de ville?
 
 > [!NOTE]
-> "Ces données de remboursement [données SNDS] sont utilisées comme proxy de la consommation française, faisant l’hypothèse d’une part que toutes les prescriptions donnent lieu à remboursement, et d’autre part que l’ensemble des médicaments remboursés par l’Assurance maladie ont été consommés par les patients concernés."[Synthèse préliminaire des indicateurs disponibles sous Géodes (11-2020)](https://www.santepubliquefrance.fr/maladies-et-traumatismes/infections-associees-aux-soins-et-resistance-aux-antibiotiques/resistance-aux-antibiotiques/documents/rapport-synthese/la-consommation-d-antibiotiques-en-secteur-de-ville-en-france-2009-2019.-synthese-preliminaire-des-indicateurs-disponibles-sous-geodes)</br>
+> "_Ces données de remboursement [données SNDS] sont utilisées comme proxy de la consommation française, faisant l’hypothèse d’une part que toutes les prescriptions donnent lieu à remboursement, et d’autre part que l’ensemble des médicaments remboursés par l’Assurance maladie ont été consommés par les patients concernés._"[Synthèse préliminaire des indicateurs disponibles sous Géodes (11-2020)](https://www.santepubliquefrance.fr/maladies-et-traumatismes/infections-associees-aux-soins-et-resistance-aux-antibiotiques/resistance-aux-antibiotiques/documents/rapport-synthese/la-consommation-d-antibiotiques-en-secteur-de-ville-en-france-2009-2019.-synthese-preliminaire-des-indicateurs-disponibles-sous-geodes)</br>
+></br>
 > Pour une approche alignée en unités avec les objectifs posés dans la [stratégie nationale 2022-2025 de prévention des infections et de l'antibioresistance](https://sante.gouv.fr/IMG/pdf/strategie_nationale_2022-2025_prevention_des_infections_et_de_l_antibioresistance.pdf), exprimés en doses définies journalières (DDJ) pour 1 000 habitants et par jour et en prescriptions pour 1 000 habitants et par an, voir le [Rapport de Santé publique France (11-2025)]( https://www.santepubliquefrance.fr/maladies-et-traumatismes/infections-associees-aux-soins-et-resistance-aux-antibiotiques/resistance-aux-antibiotiques/documents/rapport-synthese/consommation-d-antibiotiques-en-secteur-de-ville-en-france-2014-2024)</br>
 > La notion de proxy induit qu'on devrait pouvoir observer les grandes tendances dès un premier niveau d'étude des données de remboursements, sans pouvoir toutefois s'y limiter pour une analyse appronfondie et complète.</br>
-> Dans le cadre du projet, conduit en temps limité, c'est ce premier niveau qui est travaillé.
+></br>
+> Dans le cadre du projet, conduit en temps limité, c'est ce premier niveau qui est travaillé pour faire ressortir les tendances et offrir des indicateurs complémentaires à ceux exprimés en DDJ et prescriptions, par exemple relatifs au type et au prix du médicament.
 
 ### Stack
 Python, PowerBI
@@ -41,20 +43,8 @@ Python, PowerBI
 ## Traitement des données
 <details>
 
-<summary>Tips for collapsed sections</summary>
+<summary>Sources de données utilisées</summary>
 
-### You can add a header
-
-You can add text within a collapsed section.
-
-You can add an image or a code block, too.
-
-```ruby
-   puts "Hello World"
-```
-
-</details>
-### Sources de données utilisées
 #### Principale
 * Base Open Medic (données SNDS) mis à disposition librement par l’État sur la plate-forme [data.gouv.fr](https://www.data.gouv.fr/datasets/open-medic-base-complete-sur-les-depenses-de-medicaments-interregimes)
   - Dépenses de médicaments/remboursements délivrés en pharmacies de ville, selon des groupes d’éléments descriptifs bénéficiaires (tranche d'âge, sexe, région de résidence), spécialité prescripteur, type de médicament, par année.
@@ -77,9 +67,10 @@ You can add an image or a code block, too.
 
 * Liste PRIMO 
   - Liste des substances antibiotiques surveillées en France dans le cadre de la [mission PRIMO](https://medqualville.antibioresistance.fr/resistances/synthese) sur l'antibiorésistance
+</details>
+<details>
 
-
-### Méthodologie - Etapes de traitement des données Open Medic
+<summary>Méthodologie - Etapes de traitement des données Open Medic</summary>
 0. Analyse des variables et listes de valeurs, définition des formats et listes cibles
   
 1. Chargement initial 
@@ -162,8 +153,10 @@ You can add an image or a code block, too.
   <figcaption><h6 align="center">Informations du jeu de données après traitements</h6></figcaption>
   </p>
 </figure>   
+</details>
+<details>
 
-### Méthodologie - Etapes de traitement des données de contexte
+<summary>Méthodologie - Etapes de traitement des données de contexte</summary>
 * Fichier INSEE
   - Regroupement chiffres régions PACA et Corse pour aligner sur la répartition Open Medic
   - Regroupement chiffres pour aligner sur la répartition par tranches d'âge Open Medic
@@ -196,7 +189,7 @@ You can add an image or a code block, too.
   </p>
 </figure>   
 
-
+</details>
 
 
 
