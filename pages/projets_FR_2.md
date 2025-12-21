@@ -19,9 +19,12 @@ Ainsi la surveillance et la compréhension de la prescription et et délivrance 
 
 [Source image](https://sante.gouv.fr/IMG/pdf/strategie_nationale_2022-2025_prevention_des_infections_et_de_l_antibioresistance.pdf)
 
+## Stack
+Python, PowerBI
 
+<details>
 
-### Problématique
+<summary> :pill: Problématique  </summary>
 
 En étudiant les données de remboursement (montants remboursés, nombre de boîtes délivrées) selon les axes prescripteur, bénéficiaire, sous-groupes pharmacologique : 
 * Quels critères, situations ou territoires présentent une tendance de consommation qui pourrait favoriser l’antibiorésistance?
@@ -37,13 +40,9 @@ En étudiant les données de remboursement (montants remboursés, nombre de boî
 ></br>
 > Dans le cadre du projet, conduit en temps limité, c'est ce premier niveau qui est travaillé pour faire ressortir les tendances et offrir des indicateurs complémentaires à ceux exprimés en DDJ et prescriptions, par exemple relatifs au type et au prix du médicament.
 
-### Stack
-Python, PowerBI
-
-## Traitement des données
+</details>
 <details>
-
-<summary>Sources de données utilisées</summary>
+<summary>:file_cabinet: Sources de données utilisées</summary>
 
 #### Principale
 * Base Open Medic (données SNDS) mis à disposition librement par l’État sur la plate-forme [data.gouv.fr](https://www.data.gouv.fr/datasets/open-medic-base-complete-sur-les-depenses-de-medicaments-interregimes)
@@ -70,7 +69,7 @@ Python, PowerBI
 </details>
 <details>
 
-<summary>Méthodologie - Etapes de traitement des données Open Medic</summary>
+<summary>:hammer_and_wrench: Méthodologie - Etapes de traitement des données Open Medic</summary>
 0. Analyse des variables et listes de valeurs, définition des formats et listes cibles
   
 1. Chargement initial 
@@ -156,7 +155,7 @@ Python, PowerBI
 </details>
 <details>
 
-<summary>Méthodologie - Etapes de traitement des données de contexte</summary>
+<summary>:hammer_and_wrench: Méthodologie - Etapes de traitement des données de contexte</summary>
 * Fichier INSEE
   - Regroupement chiffres régions PACA et Corse pour aligner sur la répartition Open Medic
   - Regroupement chiffres pour aligner sur la répartition par tranches d'âge Open Medic
@@ -190,7 +189,15 @@ Python, PowerBI
 </figure>   
 
 </details>
+<details>
+<summary> :dart: Principaux résultats et visualisations 📊</summary>
 
+## Tendance globale
+## Remboursements et prix des antibiotiques
+## Prescripteurs
+## Familles consommées et part des substances surveillées
+
+</details>
 
 
 
