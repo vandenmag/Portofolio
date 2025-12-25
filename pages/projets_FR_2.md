@@ -71,6 +71,7 @@ En étudiant les données de remboursement (montants remboursés, nombre de boî
 <details>
 
 <summary>:hammer_and_wrench: Méthodologie - Etapes de traitement des données Open Medic</summary>
+
 0. Analyse des variables et listes de valeurs, définition des formats et listes cibles
   
 1. Chargement initial 
@@ -84,7 +85,13 @@ En étudiant les données de remboursement (montants remboursés, nombre de boî
   * Contrôle des volumétries et valeurs manquantes
   <figure>
 <p align="center" width="100%">
-  <img src="assets/P2_volumes_avt_nettoyage.png" alt="Volumes et valeurs manquantes - état initial" style="width:60%">
+  <img src="assets/P2_volumes_avt_nettoyage_info.png" alt="Volumes - état initial" style="width:40%">
+  <figcaption><h6 align="center">Volumes et valeurs manquantes après concaténation - état initial</h6></figcaption>
+  </p>
+</figure>
+  <figure>
+<p align="center" width="100%">
+  <img src="assets/P2_volumes_avt_nettoyage.png" alt="Valeurs manquantes - état initial" style="width:40%">
   <figcaption><h6 align="center">Volumes et valeurs manquantes après concaténation - état initial</h6></figcaption>
   </p>
 </figure>
