@@ -168,7 +168,7 @@ En étudiant les données de remboursement (montants remboursés, nombre de boî
    * Supprimées car proportion très petite et non pertinentes pour nos visualisations
 
 6. Vérifiaction des outliers
-  * On constate une grande dispersion à droite des données quantitatives : on étudie les outliers et la proportion qu'ils représentent. Ce ne sont pas des valeurs aberrantes; ils doivent être concservés.
+  * On constate une grande dispersion à droite des données quantitatives : on étudie les outliers et la proportion qu'ils représentent. Ce ne sont pas des valeurs aberrantes; ils doivent être conservés.
 <figure> 
   <p align="center" width="100%">
   <img src="assets/P2_outliers.png" alt="outliers" style="width:40%">
