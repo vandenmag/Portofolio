@@ -85,14 +85,14 @@ En étudiant les données de remboursement (montants remboursés, nombre de boî
   * Contrôle des volumétries et valeurs manquantes
   <figure>
 <p align="center" width="100%">
-  <img src="assets/P2_volumes_avt_nettoyage_info.png" alt="Volumes - état initial" style="width:40%">
-  <figcaption><h6 align="center">Volumes et valeurs manquantes après concaténation - état initial</h6></figcaption>
+  <img src="assets/P2_volumes_avt_nettoyage_info.png" alt="Volumes - état initial" style="width:30%">
+  <figcaption><h6 align="center">Volumes après concaténation - état initial</h6></figcaption>
   </p>
 </figure>
   <figure>
 <p align="center" width="100%">
-  <img src="assets/P2_volumes_avt_nettoyage.png" alt="Valeurs manquantes - état initial" style="width:40%">
-  <figcaption><h6 align="center">Volumes et valeurs manquantes après concaténation - état initial</h6></figcaption>
+  <img src="assets/P2_volumes_avt_nettoyage.png" alt="Valeurs manquantes - état initial" style="width:30%">
+  <figcaption><h6 align="center">Valeurs manquantes après concaténation - état initial</h6></figcaption>
   </p>
 </figure>
 
