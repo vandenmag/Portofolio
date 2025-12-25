@@ -99,16 +99,16 @@ En étudiant les données de remboursement (montants remboursés, nombre de boî
 
 2. Filtrage
   * Filtrage du dataframe sur ATC2='J01' de façon à ne conserver que le périmètre des antibiotiques
-  * Contrôle des volumes
+  * Contrôle des volumétries et valeurs manquantes
 <figure> 
   <p align="center" width="100%">
-  <img src="assets/P2_volumeJ01.png" alt="Volumes J01" style="width:60%">
-  <figcaption><h6 align="center">Volumes après filtrage</h6></figcaption>
+  <img src="assets/P2_volumeJ01.png" alt="Volumes J01" style="width:40%">
+  <figcaption><h6 align="center">Volumes et valeurs manquantes après filtrage</h6></figcaption>
   </p>
 </figure>
 
 
-3. Adaptation des variables
+4. Adaptation des variables
   * Suppression des variables non pertinentes
   * Renommage plus explicite des variables
   * Ajout de variables libellés en vue de la gestion des visualisations d'exploration
@@ -127,6 +127,21 @@ En étudiant les données de remboursement (montants remboursés, nombre de boî
   </p>
 </figure>
 
+5. Ajout de la variable indiquant si la substance est surveillée ou non pour l'antibiorésistance (merge avec la liste mission PRIMO)
+<figure> 
+  <p align="center" width="100%">
+  <img src="assets/P2_ajout_primo.png" alt="Ajout variable PRIMO" style="width:40%">
+  <figcaption><h6 align="center">Ajout variable liste Primo (merge)</h6></figcaption>
+  </p>
+</figure>
+
+  * Valorisation des valeurs manquantes liste primo à false, après vérification des lignes concernées
+<figure> 
+  <p align="center" width="100%">
+  <img src="assets/P2_NA_primo.png" alt="Gestion NA liste Primo" style="width:40%">
+  <figcaption><h6 align="center">Gestion NA liste Primo</h6></figcaption>
+  </p>
+</figure>
 4. Gestion des valeurs négatives
   * Identifiées via describe et documentées sur la discussion Open Medic (il s'agit de régularisations de remboursements)
 <figure> 
