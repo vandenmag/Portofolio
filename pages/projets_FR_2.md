@@ -28,8 +28,8 @@ Python, PowerBI
 <summary> :pill: Problématique  </summary>
 
 En étudiant les données de remboursement (montants remboursés, nombre de boîtes délivrées) selon les axes prescripteur, bénéficiaire, sous-groupes pharmacologique : 
-* Quels critères, situations ou territoires présentent une tendance de consommation qui pourrait favoriser l’antibiorésistance?
 * Quelles sont les tendances sur la période étudiée, selon les régions, les tranche d'âge, le sexe des bénéficiaires, les types de prescripteurs, les familles prescrites?
+* Quels critères, situations ou territoires présentent une tendance de consommation remarquable?
 * Quelles sont les relations entre les différents critères?
 * Que représentent les subsantances surveillées dans le cadre de l'antibiorésistance par rapport à l'ensemble des antibiotiques délivrés en pharmacies de ville?
 
