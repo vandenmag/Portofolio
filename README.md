@@ -10,3 +10,5 @@ Bonne visite
 Here are some samples of problems and data processing from my background.
 
 Enjoy your visit
+
+Last update : 25/12/2025
