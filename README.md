@@ -4,10 +4,15 @@ Vous trouverez ici quelques exemples de problématiques et traitement par la don
 
 Bonne visite
 
+</br>
 
-Consommation des antibiotiques en france 2019-2024 (Open Medic) : Analyse ad-hoc > Traitement des données en Python, visualisations PowerBi
+#### 💊 Consommation des antibiotiques en france 2019-2024 (Open Medic)
+* Analyse ad-hoc > Traitement des données en Python, visualisations PowerBi
+</br>
 
-Monitoring solution de gestion de courrier entrant dématérialisé : Tableaux de bord et alertes automatisées : requêtes SQL (SQL Server), traitements C#,  visualisations Hyland OnBase Reporting Dashboards
+#### 📫 Monitoring solution de gestion de courrier entrant dématérialisé 
+* Tableaux de bord et alertes automatisées > requêtes SQL (SQL Server), traitements C#,  visualisations Hyland OnBase Reporting Dashboards
 
-
+</br>
+</br>
 Last update : 25/12/2025
