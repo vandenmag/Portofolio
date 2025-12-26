@@ -1,4 +1,6 @@
-
+layout : page
+title : "Projet Data Monitoring"
+permalink : /projet_data_monitoring
 
 # Tableaux de bord : </br> Dématérialisation de courrier entrant  - Monitoring des opérations
 
