@@ -6,7 +6,7 @@ Bonne visite
 
 </br>
 
-#### 💊 Consommation des antibiotiques en france 2019-2024 (Open Medic)
+#### 💊 [Consommation des antibiotiques en france 2019-2024 (Open Medic)](projet_fr_1.md)
 * Analyse ad-hoc > Traitement des données en Python, visualisations PowerBi
 </br>
 
