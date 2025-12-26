@@ -255,7 +255,7 @@ En étudiant les données de remboursement (montants remboursés, nombre de boî
 <details>  
 <summary> :dart: Principaux résultats et visualisations 📊</summary>
 
-## Exploration préalable - exemples
+## Exploration préalable (Python) - exemples
 
 * Le montant remboursé et la base de remboursement ont une relation linéaire (coefficient taux de remboursement).
 <figure> 
@@ -280,6 +280,44 @@ En étudiant les données de remboursement (montants remboursés, nombre de boî
 </figure>  
 
 ## Tendance globale
+
+* Ce rapport présente les éléments clés et les KPIs généraux qui seront déclinés dans les autres rapports sous les
+axes de prescription, remboursement et familles d'antibiotiques.
+
+<figure> 
+  <p align="center" width="100%">
+  <img src="assets/P2_global.png" alt="non linéaire" style="width:100%">
+  <figcaption><h6 align="center">Rapport Vision globale</h6></figcaption>
+  </p>
+</figure> 
+
+#### Variations
+
+* L'année 2020, avec le Covid,est marqué par une baisse du nombre de boîtes consommées comme pour les
+montants remboursés. Suit une hausse progressive de 2021 à 2022 puis une légère inflexion en 2023.
+
+* Si sur l'ensemble de la période étudiée la tendance globale est à la baisse pour le nombre de boîtes
+consommées comme pour les montants remboursés, la tendance est à la hausse sur ces 2 indicateurs pour la
+dernière année.
+
+> La mise en place en 2022 de la stratégie nationale de prévention des infections et de l'antibiorésistance
+a porté ses fruits au démarrage mais les effets peinent à perdurer sur ces indicateurs.
+
+* On remarque que seuls les non-génériques affichent une réelle baisse sur 2019-2024 avec une nette baisse
+entre 2021 et 2022 et une tendance plutôt stable sur 2023-2024.
+
+> Les nouvelles règles relatives au remboursement des non-génériques (indexation sur le prix du générique équivalent, souvent inférieur, sauf si non substituable) entrées en vigueur au 01/01/2021 semblent se traduisent directement par une baisse de consommation des antibiotiques non-génériques.
+
+<figure> 
+  <p align="center" width="100%">
+  <img src="assets/P2_global_non_gen.png" alt="non linéaire" style="width:100%">
+  <figcaption><h6 align="center">Rapport Vision globale</h6></figcaption>
+  </p>
+</figure> 
+
+#### Disparités régionales
+
+* Si l'Île-de-France est en tête des montants remboursés en valeur sur la période étudiée, c'est globalement les regions PACA-Corse qui remboursent le plus pour 1000 habitants.
 
 
 ## Remboursements et prix des antibiotiques
