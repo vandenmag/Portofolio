@@ -306,7 +306,7 @@ a porté ses fruits au démarrage mais les effets peinent à perdurer sur ces in
 * On remarque que seuls les non-génériques affichent une réelle baisse sur 2019-2024 avec une nette baisse
 entre 2021 et 2022 et une tendance plutôt stable sur 2023-2024.
 
-> Les nouvelles règles relatives au remboursement des non-génériques (indexation sur le prix du générique équivalent, souvent inférieur, sauf si non substituable) entrées en vigueur au 01/01/2021 semblent se traduisent directement par une baisse de consommation des antibiotiques non-génériques.
+> Les nouvelles règles relatives au remboursement des non-génériques (indexation sur le prix du générique équivalent, souvent inférieur, sauf si non substituable) entrées en vigueur au 01/01/2021 semblent se traduire par une baisse de consommation des antibiotiques non-génériques.
 
 <figure> 
   <p align="center" width="100%">
